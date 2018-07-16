@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>gitTeste</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>6lr7b9aq9xnp</unique-id>
+    <saved-with-version>25900</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">NW.js</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-folder name="cb">
+            <object-type name="Sprite_cb" sid="132136334295102">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="695524064450004" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite2_cb" sid="261451511198714">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="v_teste" sid="854884337601682" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Platform" sid="220550467596335">
+                        <behavior id="Platform" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="829998869169290" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="cr" />
+    </object-folder>
+    <families>
+        <family name="Family_cb" plugin-id="Sprite" sid="127011390225551">
+            <members>
+                <member>Sprite2_cb</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="family_v" sid="823351935756738" type="number" />
+            </instance-variables>
+        </family>
+    </families>
+    <layout-folder>
+        <layout-folder name="cb">
+            <layout>Layout_cb.xml</layout>
+            <layout>Layout2_cr.xml</layout>
+        </layout-folder>
+        <layout-folder name="cr" />
+    </layout-folder>
+    <event-folder>
+        <event-folder name="cb">
+            <event-sheet>Event sheet_cb.xml</event-sheet>
+        </event-folder>
+        <event-folder name="cr" />
+    </event-folder>
+    <global-instances />
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
